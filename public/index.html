@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+  
+  <h1 class="jumbotron text-info text-center display-3 bg-light border-bottom">Toys api documentation</h1>
+
+  <br>
+  <br>
+
+  <div class="container border-top border-bottom">
+      <h5 class="text-center">Routes</h5>
+      <div>All products by pages: <a href="https://reutoys.herokuapp.com/toys?page=1">/toys?page=NUMER</a></div>
+      <div>All products: <a href="https://reutoys.herokuapp.com/toys?perPage=10000">/toys?perPage=10000</a></div>
+      <div>Producs by category: <a href="https://reutoys.herokuapp.com/toys/category=outdoor">/category=category name</a></div>
+      <div>Add a product: <a href="https://reutoys.herokuapp.com/toys">/toys(POST)</a></div>
+      <div>Edit a product: <a href="https://reutoys.herokuapp.com/toys">/toys(PUT)</a></div>
+      <div>Delete a product: <a href="https://reutoys.herokuapp.com/toys">/toys(DELETE)</a></div>
+      <div>Requierd parameters in a valid toy: name:String, img:String, info:String, category:String, price:Number </div>
+      <div>Requierd parameters in a valid if you want to sign in as a new user : email:String, pass:String, name:String</div>
+
+  </div>
+
+</body>
+</html>
